@@ -11,4 +11,4 @@ Each image is originally 500px x 500px. They deviate from each other in the attr
 
 This repo is largely a result of issues arising from attempting to properly scale SVG images in IE9+. Progress, hints, and tests are available in [this gist](https://gist.github.com/larrybotha/7881691) and [this codepen](http://codepen.io/larrybotha/pen/hmlAs).
 
-All graphics are copyright of [Fixate](http://fixate.it)
+All graphics are copyright of [Fixate](http://fixate.it). Please place a credit on any page using any of these images, thanks!
