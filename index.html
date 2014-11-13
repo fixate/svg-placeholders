@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Svg-placeholders : A repo purely for placeholding SVG graphics for hotlinking and testing" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.3/css/foundation.css">
 
     <title>Svg-placeholders</title>
   </head>
@@ -14,12 +14,12 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
+    <div id="header_wrap" class="row">
+        <header class="column">
           <a id="forkme_banner" href="https://github.com/fixate/svg-placeholders">View on GitHub</a>
 
           <h1 id="project_title">Svg-placeholders</h1>
-          <h2 id="project_tagline">A repo purely for placeholding SVG graphics for hotlinking and testing</h2>
+          <h3 id="project_tagline">A repo purely for placeholding SVG graphics for hotlinking and testing</h3>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/fixate/svg-placeholders/zipball/master">Download this project as a .zip file</a>
@@ -28,41 +28,55 @@
         </header>
     </div>
 
-		<div>
-				<img src="fixate.svg" alt="">
-				<img src="fixate-inverse.svg" alt="">
-				<p>
-					No viewbox / width / height - 500x500
-				</p>
-		</div>
+		<div class="row">
+			<div class="column">
 
-		<div>
-				<img src="fixate-with-viewbox.svg" alt="">
-				<img src="fixate-inverse-with-viewbox.svg" alt="">
-				<p>
-					With viewbox - 500x500
-				</p>
-		</div>
+					<div class="panel">
+							<img src="img/fixate.svg" alt="">
+							<img src="img/fixate-inverse.svg" alt="">
+							<p>
+								No viewbox / width / height - 500x500
+							</p>
+					</div>
 
-		<div>
-				<img src="fixate-with-viewbox-width-height.svg" alt="">
-				<img src="fixate-inverse-with-viewbox-width-height.svg" alt="">
-				<p>
-					With viewbox, width, and height - 500x500
-				</p>
-		</div>
+					<div class="panel">
+							<img src="img/fixate-with-width-height.svg" alt="">
+							<img src="img/fixate-inverse-with-width-height.svg" alt="">
+							<p>
+								With width and height - 500x500
+							</p>
+					</div>
 
-		<div>
-				<img src="fixate-with-viewbox-width-height-xminymin.svg" alt="">
-				<img src="fixate-inverse-with-viewbox-width-height-xminymin.svg" alt="">
-				<p>
-					With viewbox, width, height, and preserveAspectRatio="xMinYmin meet" - 500x500
-				</p>
+					<div class="panel">
+							<img src="img/fixate-with-viewbox.svg" alt="">
+							<img src="img/fixate-inverse-with-viewbox.svg" alt="">
+							<p>
+								With viewbox - 500x500
+							</p>
+					</div>
+
+					<div class="panel">
+							<img src="img/fixate-with-viewbox-width-height.svg" alt="">
+							<img src="img/fixate-inverse-with-viewbox-width-height.svg" alt="">
+							<p>
+								With viewbox, width, and height - 500x500
+							</p>
+					</div>
+
+					<div class="panel">
+							<img src="img/fixate-with-viewbox-width-height-xminymin.svg" alt="">
+							<img src="img/fixate-inverse-with-viewbox-width-height-xminymin.svg" alt="">
+							<p>
+								With viewbox, width, height, and preserveAspectRatio="xMinYmin meet" - 500x500
+							</p>
+					</div>
+
+			</div>
 		</div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
+    <div id="footer_wrap" class="row">
+      <footer class="column">
         <p class="copyright">Svg-placeholders maintained by <a href="https://github.com/fixate">fixate</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
